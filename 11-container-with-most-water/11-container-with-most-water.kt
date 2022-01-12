@@ -20,7 +20,7 @@ class Solution {
             a
         } else {
             b
-     }
+        }
     }
 
     private fun max(a: Int, b: Int): Int {
