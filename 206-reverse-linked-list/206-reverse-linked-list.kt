@@ -7,7 +7,7 @@
  *     var next: ListNode? = null
  * }
  */
-class Solution {
+class Solution4 {
     fun reverseList(head: ListNode?): ListNode? {
         var headNode = head
  

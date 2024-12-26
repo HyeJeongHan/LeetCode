@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         nums.forEachIndexed { firstIndex, prevNum ->
             for ((secondIndex, nextNum) in nums.withIndex()) {
