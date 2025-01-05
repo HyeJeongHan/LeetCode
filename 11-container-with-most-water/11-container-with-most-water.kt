@@ -1,4 +1,4 @@
-class Solution2 {
+class Solution11 {
     fun maxArea(height: IntArray): Int {
         var leftIndex = 0
         var rightIndex = height.size - 1
