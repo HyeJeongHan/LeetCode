@@ -1,3 +1,5 @@
+import java.lang.classfile.components.ClassPrinter
+
 /**
  * Example:
  * var li = ListNode(5)
@@ -8,21 +10,21 @@
  * }
  */
 class Solution4 {
-    fun reverseList(head: ListNode?): ListNode? {
-        var headNode = head
- 
-	    while (head?.next != null) {
-		    val a = head
-		    val b = head.next
-		    val c = head.next?.next
-
-		    b?.next = headNode
-
-    	    a.next = c
- 
-
-		    headNode = b
-	    }
-    	return headNode   
-    }
+//    fun reverseList(head: ClassPrinter.ListNode?): ClassPrinter.ListNode? {
+//        var headNode = head
+//
+//	    while (head?.next != null) {
+//		    val a = head
+//		    val b = head.next
+//		    val c = head.next?.next
+//
+//		    b?.next = headNode
+//
+//    	    a.next = c
+//
+//
+//		    headNode = b
+//	    }
+//    	return headNode
+//    }
 }

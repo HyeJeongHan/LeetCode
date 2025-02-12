@@ -1,3 +1,5 @@
+import java.util.HashSet
+
 class Solution35 {
     fun searchInsert(nums: IntArray, target: Int): Int {
         if (nums.contains(target)) {
@@ -17,5 +19,12 @@ class Solution35 {
             }
             return targetIndex
         }
+    }
+
+    fun searchInsert2(nums: IntArray, target: Int): Int {
+        var numSet = nums.toMutableSet()
+        numSet.add(target)
+        numSet.sorted()
+        return numSet.toIntArray().sorted().indexOf(target)
     }
 }
