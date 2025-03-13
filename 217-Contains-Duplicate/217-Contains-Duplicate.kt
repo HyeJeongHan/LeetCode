@@ -1,5 +1,6 @@
 class Solution217 {
     fun containsDuplicate(nums: IntArray): Boolean {
-        return (nums.size - nums.toHashSet().size > 0)
+        if (nums.size == 1) return false
+        return nums.size - nums.toHashSet().size > 0
     }
 }
