@@ -22,13 +22,3 @@ class Subarray_Division {
         return result
     }
 }
-
-fun main() {
-    val s = Subarray_Division()
-    println(s.birthday(arrayOf(1, 2, 1, 3, 2), 3, 2))
-    //5
-    //1 2 1 3 2
-    //3 2
-    // return 2
-
-}
